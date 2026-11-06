@@ -9,7 +9,11 @@
 
 
 <!-- ======================================= Start Title ======================================= -->
-# <p align="center"> 🎯 1- [Data Science & AI/ML]() ⥂ [Model Evaluation, Benchmarking & Selection]() ➝ [Research & Consulting Hub]()</p>
+
+
+
+
+
 
 #### <p align="center">TCRISP-DM product on bus-access inequality in São Paulo: IBGE Census 2022 × SPTrans GTFS, sector by sector. Rule-based index + spatial-CV model benchmark, read through Peircean semiotics.
 </p>
