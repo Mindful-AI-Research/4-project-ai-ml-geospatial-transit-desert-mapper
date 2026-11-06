@@ -1,6 +1,3 @@
-# 4-project-ai-ml-geospatial-transit_desert_mappe
-CRISP-DM product on bus-access inequality in São Paulo: IBGE Census 2022 × SPTrans GTFS, sector by sector. Rule-based index + spatial-CV model benchmark, read through Peircean semiotics.
-
 
 <!--START  🇬🇧English LANGUAGE BUTTON  -->
 ##### \[[🇧🇷 Português](README.pt_BR.md)\] \[**[🇬🇧 English](README.md)**\]   
@@ -14,7 +11,8 @@ CRISP-DM product on bus-access inequality in São Paulo: IBGE Census 2022 × SPT
 <!-- ======================================= Start Title ======================================= -->
 # <p align="center"> 🎯 1- [Data Science & AI/ML]() ⥂ [Model Evaluation, Benchmarking & Selection]() ➝ [Research & Consulting Hub]()</p>
 
-#### <p align="center">This repository presents a structured journey through **machine learning model evaluation, benchmarking, comparison, and selection**, combining theoretical foundations, hands-on experimentation, and practical decision-making across diverse datasets and real-world scenarios.</p>
+#### <p align="center">TCRISP-DM product on bus-access inequality in São Paulo: IBGE Census 2022 × SPTrans GTFS, sector by sector. Rule-based index + spatial-CV model benchmark, read through Peircean semiotics.
+</p>
 
 <br><br>
 
