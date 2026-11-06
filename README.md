@@ -62,7 +62,7 @@
 [**Institution:**]() Pontifical Catholic University of São Paulo (PUC-SP)  <br>
 [**School:**]() FACEI — Computer Science Department  <br>
 [**Course:**]() BSc in Human-Centered AI & Data Science •  6th Semester • 2026 <br>
-[**Subject:**]() Data Science  & Machine Learning — Model Evaluation, Benchmarking & Selection  <br>
+[**Disciplina**]() Data Science  & AI / Machine Learning — Model Evaluation, Benchmarking & Selection  <br>
 [**Extensionist Projects:**]() Social projects with open-source software for community support <br>
 **Professor:** [✨ Giovani Giulio Tristão Thibes Vieira](https://www.linkedin.com/in/giovanigttvieira/) <br>
 **Author:** [Fabiana ⚡️ Campanari]() 
