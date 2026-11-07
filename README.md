@@ -5,7 +5,7 @@
 <br><br>
 <!--END 🇬🇧English LANGUAGE BUTTON  --  -
 
-
+<br><br>
 
 
 <!-- ======================================= Start Title ======================================= -->
@@ -14,7 +14,7 @@
 
 
 
-#### <p align="center">TCRISP-DM product on bus-access inequality in São Paulo: IBGE Census 2022 × SPTrans GTFS, sector by sector. Rule-based index + spatial-CV model benchmark, read through Peircean semiotics.
+#### <p align="center">CRISP-DM product on bus-access inequality in São Paulo: IBGE Census 2022 × SPTrans GTFS, sector by sector. Rule-based index + spatial-CV model benchmark, read through Peircean semiotics.
 </p>
 
 <br><br>
