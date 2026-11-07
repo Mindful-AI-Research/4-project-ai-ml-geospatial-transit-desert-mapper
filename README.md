@@ -203,4 +203,4 @@
   
 #
  
-##### <p align="center">Copyright 2026 Mindful-AI-Assistants. Code released under the  [MIT license.]()
+##### <p align="center">Copyright 2026 Mindful-AI-Assistants. Code released under the  [MIT license.](https://github.com/Mindful-AI-Research/4-project-ai-ml-geospatial-transit-desert-mapper/blob/1d30085833fbb6b9e99b9a3016d9a76b58828f51/LICENSE.md)
