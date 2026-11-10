@@ -34,15 +34,16 @@
 <!-- ========= END SPONSOR BADGE ========= -->
 
 <!-- ========= START TEASER ========= -->
-###### <p align="center"><em> The bus goes by... The question is: how close does it get to you ?</em></p>
 
-###### <p align="center"> Every map lies a little. This one shows you where the gaps are.</p>
+###### <p align="center"><em>The map says it's close. The sidewalk disagrees.</em></p>
 
-###### <p align="center"> Congratulations !</em></p>
+###### <p align="center">The distance is measured in a straight line. Real life, not so much.</p>
 
-###### <p align="center">   <em> You're only 500 meters away. Uphill. Literally</em> 🙃</p>
+###### <p align="center">Good news! Your bus stop is only 500 meters away.</p>
 
-### <p align="center">⚡️</p>
+###### <p align="center"> <em>Uphill, no sidewalk, and plenty of obstacles. But technically, it's close.</em> 🙃 </p>
+
+### <p align="center">⚡</p>
 
 <br>
 
@@ -50,7 +51,6 @@
 
 <br><br>
 <!-- ========= END TEASER ========= -->
-
 
 
 
