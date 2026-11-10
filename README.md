@@ -40,7 +40,7 @@
 
 ###### <p align="center"> Congratulations !</em></p>
 
-###### <p align="center">  🙃     <em> You're only 500 meters away. Uphill. LiterallY</em></p>
+###### <p align="center">   <em> You're only 500 meters away. Uphill. Literally</em> 🙃</p>
 
 ### <p align="center">⚡️</p>
 
