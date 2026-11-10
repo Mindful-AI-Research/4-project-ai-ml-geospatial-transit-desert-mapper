@@ -94,6 +94,16 @@
 
 
 
+<p align="center">
+<img src="https://img.shields.io/badge/Python-3-0f172a?style=for-the-badge" alt="Python"/>
+<img src="https://img.shields.io/badge/Streamlit-Dashboard-0f766e?style=for-the-badge" alt="Streamlit"/>
+<img src="https://img.shields.io/badge/MapLibre-GL_JS-134e4a?style=for-the-badge" alt="MapLibre"/>
+<img src="https://img.shields.io/badge/GTFS-SPTrans-101f2f?style=for-the-badge" alt="GTFS"/>
+<img src="https://img.shields.io/badge/IBGE-Census_2022-112a3a?style=for-the-badge" alt="IBGE"/>
+<img src="https://img.shields.io/badge/ML-Benchmark_in_progress-124050?style=for-the-badge" alt="ML"/>
+<img src="https://img.shields.io/badge/Tests-pytest-134a4a?style=for-the-badge" alt="Tests"/>
+<img src="https://img.shields.io/badge/Status-Work_in_progress-7c2d12?style=for-the-badge" alt="Status"/>
+</p>
 
 
 
