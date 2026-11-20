@@ -1,0 +1,23 @@
+{
+  "source_file": "/home/claude/ibge_x/SP_setores_CD2022.gpkg",
+  "source_sha256": "07affc966f82292d6f9a359adccc49e69ed55d2075936ef6d1e9c346b29a04bc",
+  "source_layer": "SP_setores_CD2022",
+  "source_crs": "EPSG:4674",
+  "state_rows": 103620,
+  "filter": "CD_MUN == '3550308'",
+  "municipality_rows": 27301,
+  "output_file": "data/processed/ibge_sectors_sao_paulo_epsg31983.gpkg",
+  "output_crs": "EPSG:31983",
+  "columns_preserved": 37,
+  "cd_setor_unique": true,
+  "empty_or_null_geometries": 0,
+  "invalid_geometries_tested": true,
+  "invalid_geometries": 3,
+  "invalid_reasons": {
+    "Ring Self-intersection": 3
+  },
+  "v0001_nulls": 0,
+  "v0001_sum": 11451999,
+  "v0001_eq_0_sectors": 412,
+  "geometry_repaired": false
+}
