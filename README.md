@@ -26,7 +26,7 @@
 
 ###### <p align="center"><em>The map says it's close. The sidewalk disagrees.</em></p>
 
-###### <p align="center">The distance is measured in a straight line. Real life, not so much.</p>
+###### <p align="center">The distance is measured in a straight line. Real life, not so much...</p>
 
 ###### <p align="center">Good news! Your bus stop is only 500 meters away.</p>
 
