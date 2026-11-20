@@ -74,3 +74,27 @@ Cobertura territorial R1 por grade na área escolhida, com o rótulo: "Diagnóst
 | Regras de zero e supressão | Não documentadas; não presumidas |
 
 Preparação da análise populacional (nada implementado ainda): carregar o GeoPackage, filtrar `CD_MUN` = 3550308, reprojetar de 4674 para EPSG:31983, manter o arquivo estadual intacto e salvar o subconjunto em `data/processed/`. Limiares, pesos e critérios de ranking continuam como propostos, sem alteração, aguardando sua aprovação.
+
+## 11. Decisões registradas em 2026-11-20
+
+- Escopo: todo o município de São Paulo, setores urbanos e rurais. `SITUACAO`, `CD_SITUACAO` (campo `CD_SIT` no GeoPackage) e `CD_TIPO` ficam disponíveis para análises separadas; nenhuma categoria é excluída automaticamente.
+- Zeros: valores originais preservados, sem imputação. Rótulo: "população registrada igual a zero". Ficam no diagnóstico territorial e na auditoria; fora do ranking principal de pessoas afetadas. Categorias exclusivas (A 373, B 1, C 32, D 6 = 412) no catálogo.
+- Ranking: elegibilidade apenas `v0001` > 0, sem corte adicional na versão inicial. A população do setor aparece ao lado do indicador. Antes de propor qualquer corte, avaliar a sensibilidade do ranking a setores de população muito pequena. Dois rankings separados, sem pesos combinados.
+
+## 12. Proposta curta: limiar de "atendido" (para aprovação; nenhum valor é adotado)
+
+| Item | Proposta |
+|---|---|
+| Definição operacional de "atendido" | O ponto de origem do setor está a no máximo R metros, em linha reta, de uma parada que tem serviço programado no GTFS na janela escolhida |
+| Modo considerado | Por modo (ônibus, metrô, trem) e "qualquer modo", reportados separadamente |
+| Distância | Radial como base (decisão do professor). Rota pela rede de pedestres apenas em amostra, para qualificar o resultado, nunca como substituta silenciosa |
+| Limiares candidatos | 400, 500, 800 e 1.000 m. Referências possíveis, a VERIFICAR nas fontes antes de citar: o indicador 11.2.1 dos ODS (ONU) usa 500 m para transporte de baixa capacidade e 1.000 m para alta capacidade. Fonte e redação exatas: Desconhecido nos materiais fornecidos |
+| Serviço do GTFS | Uma parada só conta se tiver partidas programadas na janela (dia útil, faixa horária e número mínimo de partidas a decidir). Ressalva: o `stop_times.txt` do GTFS da SPTrans recebido tem apenas 99.120 linhas; se é um extrato reduzido, é Desconhecido nos materiais fornecidos, e isso afeta diretamente esta definição |
+| Sensibilidade | Variar o limiar (os quatro candidatos), a velocidade de caminhada (3,6; 4,8; 5,4 km/h) e a janela de serviço; reportar quais setores mudam de categoria |
+| Ressalva | Estar perto de uma parada não garante serviço adequado: não mede frequência real, lotação, confiabilidade, calçadas, declives, travessias, segurança nem acessibilidade |
+
+Esta decisão não bloqueia a filtragem, a reprojeção e a validação básica dos dados do IBGE, já preparadas (seção 13).
+
+## 13. Dados preparados (ambiente de revisão; NÃO aplicado ao repositório)
+
+`src/data/prepare_ibge.py`: filtra `CD_MUN` = 3550308 (27.301 setores), preserva as colunas originais, reprojeta de EPSG:4674 para EPSG:31983 e grava em `data/processed/`. Não sobrescreve nem altera a entrada. Resultado verificado ao reler o arquivo: 27.301 linhas, EPSG:31983, `CD_SETOR` único, soma de `v0001` = 11.451.999. Geometrias: nenhuma vazia; 3 inválidas (autointersecção de anel), sem reparo aplicado, decisão de tratamento pendente.
