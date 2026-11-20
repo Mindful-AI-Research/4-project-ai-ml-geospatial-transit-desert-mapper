@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128" role="img" aria-label="Transit Desert Mapper">
+  <defs>
+    <linearGradient id="tg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#14B8A6"/><stop offset="1" stop-color="#0E756D"/>
+    </linearGradient>
+  </defs>
+  <!-- ring: same geometry family as the helipad pad -->
+  <circle cx="64" cy="64" r="54" fill="none" stroke="url(#tg)" stroke-width="6"/>
+  <!-- catchment radius (the 500 m idea) -->
+  <circle cx="64" cy="64" r="34" fill="none" stroke="#14B8A6" stroke-opacity=".55" stroke-width="2.5" stroke-dasharray="3 6" stroke-linecap="round"/>
+  <!-- transit line with a stop -->
+  <path d="M24 64H104" stroke="#E3F8F5" stroke-width="4" stroke-linecap="round"/>
+  <circle cx="24" cy="64" r="4.5" fill="#050506" stroke="#E3F8F5" stroke-width="3"/>
+  <circle cx="104" cy="64" r="4.5" fill="#050506" stroke="#E3F8F5" stroke-width="3"/>
+  <circle cx="64" cy="64" r="10" fill="#14B8A6" stroke="#050506" stroke-width="3"/>
+  <!-- the gap: red marks where access is missing (in Helipad, red marks the target) -->
+  <path d="M82.47 13.24A54 54 0 0 1 114.74 45.53" fill="none" stroke="#FF2500" stroke-width="6" stroke-linecap="round"/>
+  <circle cx="98" cy="30" r="4" fill="#FF2500"/>
+</svg>
