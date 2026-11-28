@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="160" height="160" viewBox="0 0 160 160" role="img" aria-label="FabiWay">
+<title>FabiWay</title>
+<defs>
+<linearGradient id="sheen" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#fff" stop-opacity="0"/><stop offset=".5" stop-color="#fff" stop-opacity=".6"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></linearGradient>
+<linearGradient id="line" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#005C48"/><stop offset=".2" stop-color="#005B46"/><stop offset=".45" stop-color="#0E756D"/><stop offset=".65" stop-color="#14B8A6"/><stop offset=".75" stop-color="#425943"/><stop offset=".82" stop-color="#6E513B"/><stop offset=".88" stop-color="#924227"/><stop offset=".93" stop-color="#B02813"/><stop offset=".97" stop-color="#C20000"/><stop offset="1" stop-color="#DD0000"/></linearGradient>
+<radialGradient id="bg" cx=".5" cy=".4" r=".9"><stop offset="0" stop-color="#0a1418"/><stop offset="1" stop-color="#05080a"/></radialGradient>
+<linearGradient id="hull" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#F8FAFC"/><stop offset=".55" stop-color="#CBD5E1"/><stop offset="1" stop-color="#64748B"/></linearGradient>
+<linearGradient id="glass" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#7DD3FC"/><stop offset=".35" stop-color="#1E3A4C"/><stop offset="1" stop-color="#0B1E2A"/></linearGradient>
+<linearGradient id="beamg" gradientUnits="userSpaceOnUse" x1="222" y1="0" x2="580" y2="0"><stop offset="0" stop-color="#FFF3C4" stop-opacity=".75"/><stop offset=".45" stop-color="#FFF3C4" stop-opacity=".28"/><stop offset="1" stop-color="#FFF3C4" stop-opacity="0"/></linearGradient>
+<radialGradient id="halo"><stop offset="0" stop-color="#FFF3C4" stop-opacity=".55"/><stop offset="1" stop-color="#FFF3C4" stop-opacity="0"/></radialGradient>
+<filter id="blur" x="-20%" y="-40%" width="140%" height="180%"><feGaussianBlur stdDeviation="6"/></filter>
+<style>
+@keyframes lit{0%,8%{opacity:0}28%,72%{opacity:1}92%,100%{opacity:0}}
+@keyframes sway{0%,100%{transform:rotate(-2.2deg)}50%{transform:rotate(2.2deg)}}
+@keyframes blink{0%,100%{opacity:.35}50%{opacity:1}}
+@keyframes sweep{0%{transform:translateX(-300px)}70%,100%{transform:translateX(700px)}}
+@keyframes hover{0%,100%{transform:translateY(0)}50%{transform:translateY(-3px)}}
+@keyframes lunge{0%,100%{transform:translateX(0)}30%,72%{transform:translateX(5px)}}
+.lit{animation:lit 6s ease-in-out infinite}
+.sway{transform-origin:222px 66px;animation:sway 3s ease-in-out infinite}
+.l1{animation:blink 1.2s ease-in-out infinite}
+.l2{animation:blink 1.2s ease-in-out .4s infinite}
+.l3{animation:blink 1.2s ease-in-out .8s infinite}
+.sw{transform:translateX(-300px);animation:sweep 6s ease-in-out infinite}
+.hov{animation:hover 2.4s ease-in-out infinite}
+.lunge{animation:lunge 6s ease-in-out infinite}
+@media (prefers-reduced-motion:reduce){.lit,.sway,.l1,.l2,.l3,.sw,.hov,.lunge{animation:none}.lit{opacity:.85}.sw{display:none}.l1,.l2,.l3{opacity:1}}
+</style>
+</defs>
+
+<rect width="160" height="160" rx="22" fill="url(#bg)"/>
+<g class="lit"><ellipse cx="80" cy="84" rx="70" ry="40" fill="url(#halo)"/></g>
+<g transform="translate(25 52)"><g class="lunge"><ellipse cx="55" cy="52" rx="46" ry="3" fill="#000" opacity=".55"/>
+<g class="hov">
+  <path d="M33 24Q33 2 55 2Q77 2 77 24Z" fill="url(#glass)"/>
+  <path d="M40 18Q42 8 52 6" fill="none" stroke="#fff" stroke-opacity=".55" stroke-width="2" stroke-linecap="round"/>
+  <ellipse cx="55" cy="28" rx="52" ry="13" fill="url(#hull)"/>
+  <path d="M6 30Q55 46 104 30Q104 40 55 44Q6 40 6 30Z" fill="#0F172A" opacity=".18"/>
+  <path d="M9 28Q55 38 101 28" fill="none" stroke="#14B8A6" stroke-width="3"/>
+  <circle class="l1" cx="24" cy="31.5" r="2.6" fill="#FFF6C8"/>
+  <circle class="l2" cx="55" cy="34" r="2.6" fill="#FFF6C8"/>
+  <circle class="l3" cx="86" cy="31.5" r="2.6" fill="#FFF6C8"/>
+  <circle cx="104" cy="27" r="3.2" fill="#FFF6C8"/>
+  <rect x="3" y="26" width="3" height="6" rx="1" fill="#FF2500"/>
+</g></g></g>
+<path d="M44 118H116" stroke="url(#line)" stroke-width="2" stroke-linecap="round"/>
+</svg>
