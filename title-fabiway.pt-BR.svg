@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="168" viewBox="0 0 640 168" role="img" aria-label="FabiWay: porque o céu é o limite">
+<title>FabiWay: porque o céu é o limite</title>
+<defs>
+<linearGradient id="sheen" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#fff" stop-opacity="0"/><stop offset=".5" stop-color="#fff" stop-opacity=".6"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></linearGradient>
+<linearGradient id="line" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#005C48"/><stop offset=".2" stop-color="#005B46"/><stop offset=".45" stop-color="#0E756D"/><stop offset=".65" stop-color="#14B8A6"/><stop offset=".75" stop-color="#425943"/><stop offset=".82" stop-color="#6E513B"/><stop offset=".88" stop-color="#924227"/><stop offset=".93" stop-color="#B02813"/><stop offset=".97" stop-color="#C20000"/><stop offset="1" stop-color="#DD0000"/></linearGradient>
+<radialGradient id="bg" cx=".5" cy=".4" r=".9"><stop offset="0" stop-color="#0a1418"/><stop offset="1" stop-color="#05080a"/></radialGradient>
+<linearGradient id="hull" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#F8FAFC"/><stop offset=".5" stop-color="#CBD5E1"/><stop offset="1" stop-color="#475569"/></linearGradient>
+<linearGradient id="glass" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#7DD3FC"/><stop offset=".35" stop-color="#1E3A4C"/><stop offset="1" stop-color="#0B1E2A"/></linearGradient>
+<linearGradient id="beamg" gradientUnits="userSpaceOnUse" x1="222" y1="0" x2="580" y2="0"><stop offset="0" stop-color="#FFF3C4" stop-opacity=".75"/><stop offset=".45" stop-color="#FFF3C4" stop-opacity=".28"/><stop offset="1" stop-color="#FFF3C4" stop-opacity="0"/></linearGradient>
+<linearGradient id="beamv" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#FFF3C4" stop-opacity=".85"/><stop offset=".6" stop-color="#FFF3C4" stop-opacity=".25"/><stop offset="1" stop-color="#FFF3C4" stop-opacity="0"/></linearGradient>
+<radialGradient id="halo"><stop offset="0" stop-color="#FFF3C4" stop-opacity=".55"/><stop offset="1" stop-color="#FFF3C4" stop-opacity="0"/></radialGradient>
+<linearGradient id="flame" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#FFF6C8"/><stop offset=".5" stop-color="#FFB020"/><stop offset="1" stop-color="#FF2500" stop-opacity="0"/></linearGradient>
+<filter id="blur" x="-20%" y="-40%" width="140%" height="180%"><feGaussianBlur stdDeviation="6"/></filter>
+<style>
+@keyframes lit{0%,8%{opacity:0}28%,72%{opacity:1}92%,100%{opacity:0}}
+@keyframes sway{0%,100%{transform:rotate(-2.2deg)}50%{transform:rotate(2.2deg)}}
+@keyframes blink{0%,100%{opacity:.3}50%{opacity:1}}
+@keyframes sweep{0%{transform:translateX(-300px)}70%,100%{transform:translateX(700px)}}
+@keyframes hover{0%,100%{transform:translateY(0)}50%{transform:translateY(-3px)}}
+@keyframes lunge{0%,100%{transform:translateX(0)}30%,72%{transform:translateX(5px)}}
+@keyframes tilt{0%,100%{transform:rotate(-14deg)}50%{transform:rotate(-6deg)}}
+@keyframes twinkle{0%,100%{opacity:.15}50%{opacity:.9}}
+@keyframes pulse{0%,100%{opacity:.5}50%{opacity:1}}
+@keyframes flicker{0%,100%{transform:scaleY(1)}50%{transform:scaleY(1.35)}}
+.lit{animation:lit 6s ease-in-out infinite}
+.sway{transform-origin:222px 66px;animation:sway 3s ease-in-out infinite}
+.l1{animation:blink 1.2s ease-in-out infinite}
+.l2{animation:blink 1.2s ease-in-out .3s infinite}
+.l3{animation:blink 1.2s ease-in-out .6s infinite}
+.l4{animation:blink 1.2s ease-in-out .9s infinite}
+.sw{transform:translateX(-300px);animation:sweep 6s ease-in-out infinite}
+.hov{animation:hover 2.4s ease-in-out infinite}
+.lunge{animation:lunge 6s ease-in-out infinite}
+.tilt{transform-box:fill-box;transform-origin:center;animation:tilt 4s ease-in-out infinite}
+.tw1{animation:twinkle 2.6s ease-in-out infinite}
+.tw2{animation:twinkle 2.6s ease-in-out .9s infinite}
+.tw3{animation:twinkle 2.6s ease-in-out 1.7s infinite}
+.pulse{animation:pulse 1.6s ease-in-out infinite}
+.fl{transform-box:fill-box;transform-origin:top center;animation:flicker .35s ease-in-out infinite}
+</style>
+</defs>
+
+<rect width="640" height="168" rx="14" fill="url(#bg)"/>
+<circle class="tw1" cx="40" cy="30" r="1.4" fill="#fff"/><circle class="tw2" cx="92" cy="124" r="1.2" fill="#fff"/><circle class="tw3" cx="600" cy="40" r="1.4" fill="#fff"/><circle class="tw1" cx="612" cy="132" r="1.1" fill="#fff"/><circle class="tw2" cx="30" cy="96" r="1" fill="#fff"/><circle class="tw3" cx="560" cy="150" r="1.2" fill="#fff"/>
+
+<g class="lit"><ellipse cx="456" cy="70" rx="150" ry="48" fill="url(#halo)"/></g>
+<g class="lit"><g class="sway"><path d="M222 66 L580 28 L580 108 Z" fill="url(#beamg)"/></g></g>
+
+<text x="256" y="94" font-family="Georgia,'Times New Roman',serif" font-size="64" font-weight="700" letter-spacing="1" fill="#FFFFFF">Fabi<tspan fill="#5E7378">Way</tspan></text>
+<g class="lit"><text x="256" y="94" font-family="Georgia,'Times New Roman',serif" font-size="64" font-weight="700" letter-spacing="1" fill="none" filter="url(#blur)" opacity=".9"><tspan fill="none">Fabi</tspan><tspan fill="#FFE9A8">Way</tspan></text><text x="256" y="94" font-family="Georgia,'Times New Roman',serif" font-size="64" font-weight="700" letter-spacing="1" fill="none"><tspan fill="none">Fabi</tspan><tspan fill="#14B8A6">Way</tspan></text></g>
+<clipPath id="txt"><text x="256" y="94" font-family="Georgia,'Times New Roman',serif" font-size="64" font-weight="700" letter-spacing="1">FabiWay</text></clipPath>
+<g clip-path="url(#txt)"><g class="sw"><rect x="0" y="30" width="200" height="80" fill="url(#sheen)" transform="skewX(-18)"/></g></g>
+
+<g transform="translate(112 44) scale(.95)"><g class="lunge"><g class="hov">
+  <path d="M41 22Q41 6 55 6Q69 6 69 22Z" fill="url(#glass)"/>
+  <path d="M45 18Q46 10 53 8" fill="none" stroke="#fff" stroke-opacity=".6" stroke-width="1.8" stroke-linecap="round"/>
+  <path d="M0 30Q10 21 32 20H78Q100 21 110 30Q100 40 78 41H32Q10 40 0 30Z" fill="url(#hull)"/>
+  <path d="M6 30Q55 37 104 30" fill="none" stroke="#14B8A6" stroke-width="2.6"/>
+  <circle class="l1" cx="20" cy="34.5" r="2.3" fill="#FFF6C8"/>
+  <circle class="l2" cx="40" cy="37" r="2.3" fill="#FFF6C8"/>
+  <circle class="l3" cx="70" cy="37" r="2.3" fill="#FFF6C8"/>
+  <circle class="l4" cx="90" cy="34.5" r="2.3" fill="#FFF6C8"/>
+  <ellipse class="pulse" cx="55" cy="43" rx="13" ry="3" fill="#14B8A6" opacity=".8"/>
+  <circle cx="109" cy="30" r="3" fill="#FFF6C8"/>
+  <rect x="0" y="28" width="3" height="5" rx="1" fill="#FF2500"/>
+</g></g></g>
+<rect x="256" y="118" width="300" height="2" rx="1" fill="url(#line)"/>
+<text x="256" y="146" font-family="ui-monospace,Menlo,Consolas,monospace" font-size="15" font-weight="500" letter-spacing="3.2" fill="#FFFFFF" fill-opacity=".62">PORQUE O CÉU É O LIMITE</text>
+</svg>
