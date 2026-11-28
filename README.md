@@ -19,9 +19,6 @@
 
 <br><br>
 
-
-
-
 <!-- ========= START TEASER ========= -->
 
 ###### <p align="center"><em>The map says it's close. The sidewalk disagrees.</em></p>
